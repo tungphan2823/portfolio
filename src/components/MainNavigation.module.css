@@ -1,0 +1,41 @@
+.header {
+  
+
+  padding: 3rem;
+
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background-color:rgba(131, 212, 185, 0.5);
+  border-radius: 30px;
+}
+
+.list a {
+  text-decoration: none;
+  color: var(--color-primary-400);
+  margin: 1rem;
+  transition: 0.5s ;
+}
+
+
+.list a.active {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 30px;
+ 
+  
+}

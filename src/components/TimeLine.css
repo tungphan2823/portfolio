@@ -1,0 +1,49 @@
+.TimeLine{
+    margin-top: 5%;
+    
+}
+.TimeLine ul{
+    margin-left: 15%;
+}
+.check1{
+    background-color:  #024e44;
+    width: 100%;
+    max-width: 650px;
+    border-radius: 40px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    align-items: start;
+    transition: background-color 1s, color 1s;
+}
+.check1:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #024e44;
+}
+.check1 p{
+    font-size: 16px;
+}
+.check2{
+    background-color:  #024e44;
+    width: 100%;
+    max-width: 650px;
+    border-radius: 40px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-left: 25%;
+    transition: background-color 1s, color 1s;
+}.check2:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #024e44;
+}
+.check2 p{
+    font-size: 16px;
+}
+.check3{
+    background-color:  rgba(255, 255, 255, 0.5);;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 40px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-left: 55%;
+}

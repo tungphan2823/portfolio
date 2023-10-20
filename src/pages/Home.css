@@ -1,0 +1,75 @@
+.HomeTitle {
+  font-size: 150px;
+  justify-content: center;
+  align-items: center;
+  color: #024e44;
+}
+.HomeContainer {
+  text-align: center;
+  margin-top: 20%;
+}
+.BodyTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f5fffe;
+}
+.BodyTitle h1 {
+  font-size: 70px;
+}
+.BodyTitle img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 6rem;
+}
+.Introduction {
+  padding: 2rem;
+}
+.HomeStory {
+  color: #024e44;
+  padding: 2rem;
+  
+}
+.HomeStoryText {
+  display: inline-block;
+  width: 80%;
+  padding: 5rem;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: justify;
+  font-size: 20px;
+  
+  line-height: 2;
+  
+}
+.bottomImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #024e44;
+    border-top: 30px;
+}
+.leftImg{
+    height: 542px;
+    width: 700px;
+    border-radius: 30px;
+    padding: 1rem;
+}
+.leftImg:hover{
+    -webkit-filter: brightness(.5);
+   filter: brightness(.5);
+   transition: 0.5s;
+}
+.rightImg{
+    height: 542px;
+    width: 400px;
+    border-radius: 30px;
+    padding: 1rem;
+}
+.rightImg:hover{
+    -webkit-filter: brightness(.5);
+   filter: brightness(.5);
+   transition: 0.5s;
+}
