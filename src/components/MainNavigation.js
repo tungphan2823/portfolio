@@ -31,12 +31,12 @@ function MainNavigation() {
           </li>
           <li>
             <NavLink
-              to="/news"
+              to="/blog"
               className={({ isActive }) =>
                 isActive ? classes.active : undefined
               }
             >
-              Newsletter
+              Blog
             </NavLink>
           </li>
           <li>

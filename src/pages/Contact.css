@@ -20,7 +20,7 @@
   transition: all 200ms ease-in-out;
 }
 
-img {
+.image-wrapper img {
   height: 300px;
   width: 450px;
   object-fit: cover;

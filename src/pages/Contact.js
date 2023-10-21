@@ -9,7 +9,8 @@ const ContactPage = () => {
         <Link to='https://github.com/tungphan2823'>
           <div class="wrapper">
             <div class="image-wrapper">
-              <img src="https://www.hubspot.com/hubfs/github-flow.png" />
+              <img src="https://www.hubspot.com/hubfs/github-flow.png"  alt="git"/>
+              
             </div>
             <div class="header-wrapper">
               <h1>Github</h1>
@@ -22,6 +23,7 @@ const ContactPage = () => {
               <img
                 class="book-design-image"
                 src="https://media.sproutsocial.com/uploads/2023/05/Best-Time-To-Post-on-Linkedin.svg"
+                alt="lkn"
               />
             </div>
             <div class="header-wrapper">
@@ -35,6 +37,7 @@ const ContactPage = () => {
               <img
                 class="book-design-image"
                 src="https://getstream.io/blog/static/35efdbc44eb1933ec25149afd73bc01e/61d8b/intro.png"
+                alt="figma"
               />
             </div>
             <div class="header-wrapper">

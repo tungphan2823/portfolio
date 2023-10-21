@@ -1,0 +1,19 @@
+.blogContainer{
+    margin-top: 15%;
+    font-size: 120px;
+    color: #024e44;
+}
+.blog{
+    text-align: center;
+    padding: 5rem;
+}
+.blogTitle {
+    display: inline-block;
+    width: 50%;
+    padding: 5rem;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: justify;
+    font-size: 20px;
+    color: #024e44;
+}
