@@ -31,7 +31,7 @@ function MainNavigation() {
           </li>
           <li>
             <NavLink
-              to=""
+              to="/news"
               className={({ isActive }) =>
                 isActive ? classes.active : undefined
               }

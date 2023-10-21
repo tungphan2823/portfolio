@@ -9,7 +9,7 @@ const HomePage = () => {
       <h1 className="HomeTitle">Hi. I'm Tung.</h1>
 
       <div className="BodyTitle">
-        <img src={ava} />
+        <img src={ava} alt="myface" />
         <div className="Introduction">
           <h1>I'm a Frontend Developer. </h1>
           <h2>Currently Studying at Vaasa University of Applied Sciences</h2>
@@ -23,7 +23,7 @@ const HomePage = () => {
       </div>
       <TimeLine />
       <div className="HomeStory">
-        {" "}
+        
         <h1> A little about me and how my coding journal start </h1>
         <div className="HomeStoryText">
           <p>
@@ -47,8 +47,8 @@ const HomePage = () => {
         </div>
       </div>
       <div className="bottomImg">
-        <img  className='leftImg'src={left}/>
-        <img className='rightImg'src={right}/>
+        <img  className='leftImg'src={left} alt="czech" />
+        <img className='rightImg'src={right} alt="czech" />
       </div>
     </div>
   );
