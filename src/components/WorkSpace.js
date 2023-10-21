@@ -1,26 +1,8 @@
 import "./WorkSpace.css";
-const PROJECTS = [
-  {
-    id: "storage",
-    from: "VAMK",
-    title: "Web Storage",
-    img: require("../img/webStorage.png"),
-  },
-  {
-    id: "game",
-    from: "VAMK",
-    title: "Dungeon Game",
-    img: require("../img/2dGame.png"),
-  },
-  {
-    id: "elevens",
-    from: "Practice",
-    title: "ElevenS",
-    img: require("../img/elevens.png"),
-    
-  },
-  
-];
+import { Link } from "react-router-dom";
+import { PROJECTS } from "../components/WorkData";
+import { INPROGRESS } from "../components/WorkData";
+
 const WorkSpace = () => {
   return (
     <div>
@@ -33,11 +15,43 @@ const WorkSpace = () => {
               backgroundColor: project.backgroundColor,
             }}
           >
-            <div className="WorkCard">
-              <p>{project.from}</p>
-              <h1>{project.title}</h1>
-              <img src={project.img} alt={project.title} />
-            </div>
+            <Link to={project.id} relative="path">
+              <div className="WorkCard">
+                <p>{project.from}</p>
+                <h1>{project.title}</h1>
+
+                <img
+                  src={project.img}
+                  alt={project.title}
+                  class="book-design-image"
+                />
+              </div>
+            </Link>
+          </div>
+        ))}
+      </div>
+      <h1 className="InprogressTitle"> In Progress. </h1>
+      <div className="Inprogress">
+        {INPROGRESS.map((project) => (
+          <div
+            key={project.id}
+            className="ProjectCard"
+            style={{
+              backgroundColor: project.backgroundColor,
+            }}
+          >
+            <Link to={project.id} relative="path">
+              <div className="InprogressCard">
+                <p>{project.from}</p>
+                <h1>{project.title}</h1>
+
+                <img
+                  src={project.img}
+                  alt={project.title}
+                  class="book-design-image"
+                />
+              </div>
+            </Link>
           </div>
         ))}
       </div>

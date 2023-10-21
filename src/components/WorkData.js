@@ -1,0 +1,105 @@
+export const PROJECTS = [
+  {
+    id: "storage",
+    from: "VAMK",
+    title: "Web Storage",
+    img: require("../img/webStorage.png"),
+    events: {
+      title: " Web Storage",
+      timeline: "2021",
+      language: "HTML, CSS, JavaScript",
+      link: "https://github.com/tungphan2823/Web_Storage",
+      img: require("../img/webStorage.png"),
+      img1: require("../img/storageItem.jpeg"),
+      img2: require("../img/storageItem1.jpeg"),
+      team: "Tung Phan",
+      role: "Frontend Developer",
+      text: "JSON Data Handling The application masterfully processes JSON files provided by customers. It delicately parses and extracts pertinent information for exquisite display and seamless storage. User-Friendly Interface The web application offers an intuitive and artfully designed interface for users. It ensures a silky-smooth and engaging experience, regardless of the device or screen size. Responsive Design The project employs responsive design principles, allowing it to gracefully adapt to various screen sizes and devices. It ensures an impeccable viewing experience, whether on desktops, tablets, or mobile phones. Data Storage and Retrieval The application securely nestles processed data, allowing users to retrieve and interact with it at their convenience. It employs robust storage solutions, ensuring data integrity and unwavering availability. Search and Filter Capabilities Users can swiftly and efficiently search for specific information within the cherished trove of stored data. Advanced filtering options empower users to refine their search results based on exquisite criteria.",
+      overview:
+        "The Web Storage project is a responsive web application meticulously crafted to adeptly store and manage data received in JSON format from valued customers. This innovative platform seamlessly integrates and organizes customer-provided information, sculpting it into a delightful and user-friendly web interface.",
+    },
+  },
+  {
+    id: "game",
+    from: "VAMK",
+    title: "Dungeon Game OOP",
+    img: require("../img/2dGame.png"),
+    events: {
+      title: " Java Game OOP",
+      timeline: "2022",
+      language: "Java",
+      link: "https://github.com/tungphan2823/2D_DUNGEON_GAME",
+      img: require("../img/2dGame.png"),
+      img1: require("../img/start.png"),
+      img2: require("../img/character.png"),
+      team: "Tung Phan",
+      role: "Developer",
+      text: "🏃‍♂️ Smooth Movement: Enjoy fluid character controls for a seamless gaming experience. 🌟 Jumping Action: Leap through the world with precision using our finely-tuned jumping mechanism.📐 Accurate Collisions: Interact realistically with the game environment through meticulous hit box implementation.",
+      overview:
+        "In this captivating game, you'll guide a dynamic character through a vivid world, equipped with seamless movement, precise jumping mechanics, and accurate collision interactions.",
+    },
+  },
+  {
+    id: "elevens",
+    from: "Practice",
+    title: "ElevenS",
+    img: require("../img/elevens.png"),
+
+    events: {
+      title: " check2",
+      base: "VAMK",
+      link: "https://tungphan2823.github.io/ElevenS/",
+      language: "HTML, CSS, JavaScript",
+      timeline: "2021",
+      img: require("../img/elevens.png"),
+      img1: require("../img/elevensPage.png"),
+      team: "Tung Phan",
+      role: "Frontend Developer",
+      overview:
+        "This just a short project where I practiced styling CSS and HTML",
+    },
+  },
+  {
+    id: "react",
+    from: "Practice",
+    title: "React Learning",
+    img: require("../img/react.png"),
+    events: {
+      title: " React Learning",
+      base: "VAMK",
+      link: "https://github.com/tungphan2823/React_learn",
+      language: "JavaScript ( React JS)",
+      timeline: "2023",
+      img: require("../img/react.png"),
+      img1: require("../img/reactTitle.png"),
+      team: "Tung Phan",
+      role: " Developer",
+      text: "Goals 🎯 My primary goals for this React.js learning journey include: Building robust and interactive web applications. Understanding the core concepts of React such as components, state, and props. Mastering state management using tools like Redux or the Context API. Exploring best practices in modern web development. Collaborating with the React.js community to share insights and learn from others.",
+      overview:
+        "🚀 I'm a passionate developer who loves to explore the ever-evolving world of web development. React.js has caught my attention because of its popularity, flexibility, and the vibrant community that surrounds it. I believe that React.js is a key skill for modern web developers, and I'm committed to honing my skills in this technology.",
+    },
+  },
+];
+export const INPROGRESS = [
+    {
+        id: "popup",
+        from: "VAMK - Watasila",
+        title: "PopupPro",
+        img: require("../img/popup.png"),
+        events: {
+          title: " PopupPro",
+          base: "VAMK",
+          link: "https://github.com/tungphan2823/React_learn",
+          language: "HTML, CSS, JavaScript - ReactJS, NodeJS, RESApi,...",
+          timeline: "2023 - Present",
+          img: require("../img/popup.png"),
+          img1: require("../img/bugEdit.png"),
+          img2: require("../img/bugCreate.png"),
+          team: "Tung Phan, Ngoc Le, Trung Nguyen",
+          role: " Frontend Developer",
+          text: "The project still in the early stages of development, I will update it recently",
+          overview:
+            "The Vamk project represents a visionary endeavor aimed at conceiving a dynamic web application, one that not only facilitates the seamless creation and efficient management of pop-up elements but also boasts the remarkable capacity to seamlessly integrate these pop-ups into a diverse array of existing web applications. This innovative platform is poised to revolutionize the way in which pop-up functionalities are harnessed, providing a versatile and user-friendly solution for web developers and businesses alike. Through its sophisticated architecture and user-centric design, the Vamk project is set to usher in a new era of web application development, offering a powerful toolset to enhance user engagement and optimize the overall digital experience.",
+        },
+      },
+  ];

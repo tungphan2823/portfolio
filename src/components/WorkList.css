@@ -1,0 +1,63 @@
+.WorkList {
+  text-align: center;
+  margin-top: 15%;
+}
+.workTitle {
+  font-size: 150px;
+  color: #024e44;
+}
+.Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timeline,
+.team,
+.role {
+  padding: 3rem;
+}
+.Title h3 {
+  color: rgb(82, 80, 80);
+}
+.mainImg {
+  width: 100%;
+  max-width: 1200px;
+  max-height: 650px;
+  border-radius: 30px;
+}
+.overviewTitle {
+  padding-top: 3rem;
+  color: #024e44;
+}
+.overview {
+  display: inline-block;
+  width: 50%;
+  padding: 5rem;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: justify;
+  font-size: 20px;
+  color: #024e44;
+  line-height: 2;
+}
+.direct {
+  padding: 2rem;
+  background-color: #024e44;
+  border-radius: 20px;
+  display: inline-block;
+  width: 50%;
+  transition: background-color 1s, color 1s;
+}
+
+.direct:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #024e44;
+}
+
+.direct a {
+  text-decoration: none;
+  color: white;
+}
+.direct a:hover {
+  color: #024e44;
+}
