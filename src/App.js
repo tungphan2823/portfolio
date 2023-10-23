@@ -6,7 +6,7 @@ import { AnimatePresence } from "framer-motion";
 import ContactPage from "./pages/Contact";
 import NewsPage from "./pages/News";
 import ProductDetailPage from "./pages/ProductDetail";
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <RootPage />,
