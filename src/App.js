@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider, createHashRouter } from "react-rou
 import RootPage from "./pages/Root";
 import HomePage from "./pages/Home";
 import WorkPage from "./pages/Work";
+import { AnimatePresence } from "framer-motion";
 import ContactPage from "./pages/Contact";
 import NewsPage from "./pages/News";
 import ProductDetailPage from "./pages/ProductDetail";
@@ -37,9 +38,11 @@ const router = createHashRouter([
 ]);
 function App() {
   return (
+    <AnimatePresence>
     <div className="App">
       <RouterProvider router={router} />
     </div>
+    </AnimatePresence>
   );
 }
 

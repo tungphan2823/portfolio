@@ -2,9 +2,11 @@ import "./Home.css";
 import ava from "../img/me.jpg";
 import left from '../img/IMG_3717.jpg'
 import right from '../img/IMG_3974.jpg'
+import AnimatedPage from "../transition";
 import TimeLine from "../components/TimeLine";
 const HomePage = () => {
   return (
+    <AnimatedPage>
     <div className="HomeContainer">
       <h1 className="HomeTitle">Hi. I'm Tung.</h1>
 
@@ -51,6 +53,7 @@ const HomePage = () => {
         <img className='rightImg'src={right} alt="czech" />
       </div>
     </div>
+    </AnimatedPage>
   );
 };
 export default HomePage;
