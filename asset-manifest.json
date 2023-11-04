@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e51ba7ff.css",
-    "main.js": "/static/js/main.850ae03d.js",
+    "main.css": "/static/css/main.049aed7d.css",
+    "main.js": "/static/js/main.6df7e226.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/background.gif": "/static/media/background.3b3795fece5c095f596c.gif",
     "static/media/elevensPage.png": "/static/media/elevensPage.5c22dc1b7f82fe3077f5.png",
@@ -19,14 +19,17 @@
     "static/media/reactTitle.png": "/static/media/reactTitle.f8dc2e56cc4162065abd.png",
     "static/media/popup.png": "/static/media/popup.3317322e6e77ee74c091.png",
     "static/media/character.png": "/static/media/character.430b5556f4e9daad4b24.png",
+    "static/media/figma.png": "/static/media/figma.4658ca18c69ce3849a1d.png",
     "static/media/storageItem1.jpeg": "/static/media/storageItem1.b1254579a7425da9c398.jpeg",
+    "static/media/github.png": "/static/media/github.454fdec38ca041aca94c.png",
+    "static/media/link.png": "/static/media/link.ca3aa8cfe40bc319996d.png",
     "index.html": "/index.html",
-    "main.e51ba7ff.css.map": "/static/css/main.e51ba7ff.css.map",
-    "main.850ae03d.js.map": "/static/js/main.850ae03d.js.map",
+    "main.049aed7d.css.map": "/static/css/main.049aed7d.css.map",
+    "main.6df7e226.js.map": "/static/js/main.6df7e226.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e51ba7ff.css",
-    "static/js/main.850ae03d.js"
+    "static/css/main.049aed7d.css",
+    "static/js/main.6df7e226.js"
   ]
 }
