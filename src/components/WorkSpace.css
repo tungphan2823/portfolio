@@ -13,7 +13,7 @@
 }
 
 .WorkCard:hover {
-  max-width: 960px;
+  max-width: 650px;
   max-height: 550px;
 }
 .WorkCard img {

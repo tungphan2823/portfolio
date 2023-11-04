@@ -1,6 +1,9 @@
 import "./Contact.css";
 import { Link } from "react-router-dom";
 import AnimatedPage from "../transition";
+import github from '../img/github.png';
+import linkedin from '../img/link.png';
+import figma from '../img/figma.png';
 const ContactPage = () => {
   return (
     <AnimatedPage>
@@ -12,7 +15,7 @@ const ContactPage = () => {
             <div class="wrapper">
               <div class="image-wrapper">
                 <img
-                  src="https://www.hubspot.com/hubfs/github-flow.png"
+                  src={github}
                   alt="git"
                 />
               </div>
@@ -26,7 +29,7 @@ const ContactPage = () => {
               <div class="image-wrapper">
                 <img
                   class="book-design-image"
-                  src="https://media.sproutsocial.com/uploads/2023/05/Best-Time-To-Post-on-Linkedin.svg"
+                  src={linkedin}
                   alt="lkn"
                 />
               </div>
@@ -40,7 +43,7 @@ const ContactPage = () => {
               <div class="image-wrapper">
                 <img
                   class="book-design-image"
-                  src="https://getstream.io/blog/static/35efdbc44eb1933ec25149afd73bc01e/61d8b/intro.png"
+                  src={figma}
                   alt="figma"
                 />
               </div>
