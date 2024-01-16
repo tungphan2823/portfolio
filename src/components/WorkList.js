@@ -31,6 +31,9 @@ const WorkList = ({ event }) => {
       {event.text && <h1 className="overviewTitle">Key Feature </h1>}
       {event.text && <p className="overview">{event.text}</p>}
       {event.img2 && <img src={event.img2} alt="mainImg" className="mainImg" />}
+      {event.img3 && <img src={event.img3} alt="mainImg3" className="mainImg" />}
+      {event.img4 && <img src={event.img4} alt="mainImg4" className="mainImg" />}
+      {event.img5 && <img src={event.img5} alt="mainImg5" className="mainImg" />}
       <br></br>
       <h1 className="direct">
         {" "}

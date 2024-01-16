@@ -79,6 +79,30 @@ export const PROJECTS = [
         "🚀 I'm a passionate developer who loves to explore the ever-evolving world of web development. React.js has caught my attention because of its popularity, flexibility, and the vibrant community that surrounds it. I believe that React.js is a key skill for modern web developers, and I'm committed to honing my skills in this technology.",
     },
   },
+  {
+    id: "java-web-server",
+    from: "VAMK",
+    title: "Java Web Server",
+    img: require("../img/JavaHome.png"),
+    events: {
+      title: " Java Web Server",
+      base: "VAMK",
+      link: "https://github.com/tungphan2823/Java-Server-Programming",
+      language: "JavaScript ( React JS), HTML, CSS, JAVA",
+      timeline: "2023",
+      img: require("../img/JavaHome.png"),
+      img1: require("../img/JavaStudentHome.png"),
+      img2: require("../img/JavaStudentEdit.png"),
+      img3: require("../img/JavaCourse.png"),
+      img4: require("../img/JavaEnroll.png"),
+      img5: require("../img/JavaEnrollHome.png"),
+      team: "Tung Phan",
+      role: " Developer",
+      text: "To streamline student and course management, start by creating user interfaces for adding students and courses, ensuring essential details are captured and stored in a database. For student removal, design an intuitive interface with backend logic to maintain data integrity during the removal process. In course management, develop forms for administrators to add and edit course details, incorporating validation for accuracy. Implement a system for archiving or deleting courses as needed.For search functionality, build a robust student search feature, allowing administrators to quickly locate students using filters such as name, enrollment date, or course enrollment. Enable ongoing enrollment monitoring by creating a dynamic dashboard that fetches real-time information from the database, providing administrators with insights into student progress. Consider implementing security measures, including proper authentication and authorization, to control access. Additionally, incorporate logging mechanisms to track changes for auditing purposes. Provide clear feedback messages for user operations, and thoroughly test the system to identify and address any bugs before deployment. Adapt these steps to your specific web development stack, leveraging technologies such as React JS, HTML, and CSS for the frontend, and suitable backend technologies.",
+      overview:
+        "The Student Management Hub is a comprehensive web application designed to streamline the administrative tasks associated with managing students and courses in an educational institution. This user-friendly platform empowers administrators and educators to efficiently handle various aspects of student enrollment and course management with ease.",
+    },
+  },
 ];
 export const INPROGRESS = [
     {
